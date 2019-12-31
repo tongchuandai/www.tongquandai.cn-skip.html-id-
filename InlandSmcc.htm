@@ -49,7 +49,7 @@ class="OrgFullName"></SPAN><BR></P>
         if(datas.result=="1"&&typeof(datas.datas)!="undefined"){
             var rows = datas.datas.table.row[0];
             //是否临时
-            if(rows.IfTemp==1){
+            if(rows.IfTemp==0){
                 $(".IfTemp").hide();
             }
             //是否注销
